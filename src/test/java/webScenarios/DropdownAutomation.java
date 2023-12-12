@@ -8,6 +8,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
+import helper.Utility;
+
 public class DropdownAutomation 
 {
 
@@ -20,12 +22,19 @@ public class DropdownAutomation
 		
 		//Identify select based dropdown
 		WebElement ele=driver.findElement(By.name("url"));
+		Utility.selectBasedDropdown(ele,"Baby");
 		
+		
+		
+		
+		
+		
+		/*
 		//Select Base
 		/*
 		 * When dropdown is desiged with <select> tag
 		 * use Select class from selenium
-		 */
+		 
 		Select dd=new Select(ele);
 		System.out.println("Is dropdown supports multiple selection?: "+dd.isMultiple());
 		
@@ -50,7 +59,7 @@ public class DropdownAutomation
 			}
 		}
 		
-		
+		*/
 		
 		
 		
