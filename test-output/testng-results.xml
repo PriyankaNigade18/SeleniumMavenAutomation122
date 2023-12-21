@@ -2,24 +2,72 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-19T22:18:14 IST" name="Default suite" finished-at="2023-12-19T22:18:44 IST" duration-ms="30037">
+  <suite started-at="2023-12-21T22:12:17 IST" name="Default suite" finished-at="2023-12-21T22:12:17 IST" duration-ms="98">
     <groups>
     </groups>
-    <test started-at="2023-12-19T22:18:14 IST" name="Default test" finished-at="2023-12-19T22:18:44 IST" duration-ms="30037">
-      <class name="testngDemo.TestDemo2">
-        <test-method signature="chromeTest()[pri:1, instance:testngDemo.TestDemo2@7205765b]" started-at="2023-12-19T22:18:14 IST" name="chromeTest" finished-at="2023-12-19T22:18:21 IST" duration-ms="6656" status="PASS">
+    <test started-at="2023-12-21T22:12:17 IST" name="Default test" finished-at="2023-12-21T22:12:17 IST" duration-ms="98">
+      <class name="testngDemo.AnnotationDemo">
+        <test-method is-config="true" signature="bSuite()[pri:0, instance:testngDemo.AnnotationDemo@437da279]" started-at="2023-12-21T22:12:17 IST" name="bSuite" finished-at="2023-12-21T22:12:17 IST" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- chromeTest -->
-        <test-method signature="firefoxTest()[pri:2, instance:testngDemo.TestDemo2@7205765b]" started-at="2023-12-19T22:18:21 IST" name="firefoxTest" finished-at="2023-12-19T22:18:27 IST" duration-ms="6341" status="PASS">
+        </test-method> <!-- bSuite -->
+        <test-method is-config="true" signature="bTest()[pri:0, instance:testngDemo.AnnotationDemo@437da279]" started-at="2023-12-21T22:12:17 IST" name="bTest" finished-at="2023-12-21T22:12:17 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- firefoxTest -->
-        <test-method signature="edgeTest()[pri:3, instance:testngDemo.TestDemo2@7205765b]" started-at="2023-12-19T22:18:27 IST" name="edgeTest" finished-at="2023-12-19T22:18:44 IST" duration-ms="16981" status="PASS">
+        </test-method> <!-- bTest -->
+        <test-method is-config="true" signature="bClass()[pri:0, instance:testngDemo.AnnotationDemo@437da279]" started-at="2023-12-21T22:12:17 IST" name="bClass" finished-at="2023-12-21T22:12:17 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- edgeTest -->
-      </class> <!-- testngDemo.TestDemo2 -->
+        </test-method> <!-- bClass -->
+        <test-method is-config="true" signature="bMethod()[pri:0, instance:testngDemo.AnnotationDemo@437da279]" started-at="2023-12-21T22:12:17 IST" name="bMethod" finished-at="2023-12-21T22:12:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bMethod -->
+        <test-method signature="registerTest()[pri:1, instance:testngDemo.AnnotationDemo@437da279]" started-at="2023-12-21T22:12:17 IST" name="registerTest" finished-at="2023-12-21T22:12:17 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method is-config="true" signature="aMethod()[pri:0, instance:testngDemo.AnnotationDemo@437da279]" started-at="2023-12-21T22:12:17 IST" name="aMethod" finished-at="2023-12-21T22:12:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aMethod -->
+        <test-method is-config="true" signature="bMethod()[pri:0, instance:testngDemo.AnnotationDemo@437da279]" started-at="2023-12-21T22:12:17 IST" name="bMethod" finished-at="2023-12-21T22:12:17 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bMethod -->
+        <test-method signature="loginTest()[pri:2, instance:testngDemo.AnnotationDemo@437da279]" started-at="2023-12-21T22:12:17 IST" name="loginTest" finished-at="2023-12-21T22:12:17 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="aMethod()[pri:0, instance:testngDemo.AnnotationDemo@437da279]" started-at="2023-12-21T22:12:17 IST" name="aMethod" finished-at="2023-12-21T22:12:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aMethod -->
+        <test-method signature="logoutTest()[pri:3, instance:testngDemo.AnnotationDemo@437da279]" started-at="2023-12-21T22:12:17 IST" name="logoutTest" finished-at="2023-12-21T22:12:17 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="bMethod()[pri:0, instance:testngDemo.AnnotationDemo@437da279]" started-at="2023-12-21T22:12:17 IST" name="bMethod" finished-at="2023-12-21T22:12:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bMethod -->
+        <test-method is-config="true" signature="aMethod()[pri:0, instance:testngDemo.AnnotationDemo@437da279]" started-at="2023-12-21T22:12:17 IST" name="aMethod" finished-at="2023-12-21T22:12:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aMethod -->
+        <test-method is-config="true" signature="aClass()[pri:0, instance:testngDemo.AnnotationDemo@437da279]" started-at="2023-12-21T22:12:17 IST" name="aClass" finished-at="2023-12-21T22:12:17 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aClass -->
+        <test-method is-config="true" signature="aTest()[pri:0, instance:testngDemo.AnnotationDemo@437da279]" started-at="2023-12-21T22:12:17 IST" name="aTest" finished-at="2023-12-21T22:12:17 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aTest -->
+        <test-method is-config="true" signature="aSuite()[pri:0, instance:testngDemo.AnnotationDemo@437da279]" started-at="2023-12-21T22:12:17 IST" name="aSuite" finished-at="2023-12-21T22:12:17 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aSuite -->
+      </class> <!-- testngDemo.AnnotationDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
